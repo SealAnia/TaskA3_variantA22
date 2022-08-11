@@ -1,0 +1,18 @@
+table {
+    width: 55%;
+}
+tr, td, th {
+    border-width: 1px;
+    border-style: solid;
+}
+
+th {
+	background-color: indigo;
+  	color: white;
+}
+td{
+	text-align: right;
+}
+.forecast {
+	color: blue;
+}

@@ -1,0 +1,16 @@
+CREATE TABLE `test_tasks`.`hourly_load_forecast` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `date` DATE NOT NULL,
+  `time` TIME NOT NULL,
+  `electricity_generation` DOUBLE NOT NULL,
+  `conventional` DOUBLE NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
+  
+  CREATE TABLE `test_tasks`.`time_period` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `start` TIME NOT NULL,
+  `end` TIME NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
+  
